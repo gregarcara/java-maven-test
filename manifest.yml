@@ -1,0 +1,5 @@
+---
+applications: 
+- name: test-java-maven-hello-world
+  mem: 512M
+  path: target/java-maven-hello-world-1.0
