@@ -3,4 +3,3 @@ applications:
 - name: test-java-maven-hello-world
   mem: 256M
   path: target/test-java-maven-hello-world-1.0
-  no-route: true
