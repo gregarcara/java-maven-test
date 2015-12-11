@@ -15,7 +15,7 @@ Make sure your have [Ant](http://ant.apache.org/ "Ant") installed.
 Then, *cd* into the root directory and execute:
 
 	ant clean package
-	
+
 That will create the *hello-java-1.0.war* file within the 'target' directory.
 
 ### Maven
@@ -34,7 +34,7 @@ To run the application, make sure you have the Stackato client installed and tha
 
 Then execute:
 
-	stackato push -n 
+	stackato push -n
 
 Notice that it detected the app type as "Java Web Application". In this case, it's only recognizing a runtime (Java)
 but not a framework (e.g. Spring or Grails), since this really is just a barebones Java web application. If you were
