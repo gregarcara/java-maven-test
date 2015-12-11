@@ -12,6 +12,6 @@ public class JavaTest extends TestCase {
    // test method to add two values
    public void testAdd(){
       double result= value1 + value2;
-      assertTrue(result == 6);
+      assertTrue(result = 6);
    }
 }
